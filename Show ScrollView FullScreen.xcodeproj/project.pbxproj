@@ -10,8 +10,8 @@
 		CC467B5A1CFB14B8005D6917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC467B591CFB14B8005D6917 /* AppDelegate.swift */; };
 		CC467B5C1CFB14B8005D6917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC467B5B1CFB14B8005D6917 /* Assets.xcassets */; };
 		CC467B5F1CFB14B8005D6917 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC467B5D1CFB14B8005D6917 /* MainMenu.xib */; };
-		CC467B681CFB152B005D6917 /* ZipZap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC467B671CFB152B005D6917 /* ZipZap.framework */; };
-		CC467B6A1CFB154F005D6917 /* ZipZap.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC467B671CFB152B005D6917 /* ZipZap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CCC0B5321D2AB671007EF9F8 /* ZipZap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC0B5311D2AB671007EF9F8 /* ZipZap.framework */; };
+		CCC0B5331D2AB692007EF9F8 /* ZipZap.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCC0B5311D2AB671007EF9F8 /* ZipZap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,7 +21,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CC467B6A1CFB154F005D6917 /* ZipZap.framework in CopyFiles */,
+				CCC0B5331D2AB692007EF9F8 /* ZipZap.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,7 +33,7 @@
 		CC467B5B1CFB14B8005D6917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC467B5E1CFB14B8005D6917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CC467B601CFB14B8005D6917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC467B671CFB152B005D6917 /* ZipZap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZipZap.framework; sourceTree = SOURCE_ROOT; };
+		CCC0B5311D2AB671007EF9F8 /* ZipZap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipZap.framework; path = ../../DerivedData/ShowScrollViewFullScreen/Build/Products/Release/ZipZap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC467B681CFB152B005D6917 /* ZipZap.framework in Frameworks */,
+				CCC0B5321D2AB671007EF9F8 /* ZipZap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 		CC467B661CFB14DA005D6917 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC467B671CFB152B005D6917 /* ZipZap.framework */,
+				CCC0B5311D2AB671007EF9F8 /* ZipZap.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
