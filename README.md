@@ -8,7 +8,7 @@ The program was written in Swift for Mac OS X.
 
 The development environment in the moment is Xcode 7.3.1 under OS El Capitan.
 
-You can choose one or more image files (including multipage TIFFs and PDF documents) from a directory, which are displayed succesvely, the sequence is controlled by the cursor keys:
+You can choose one or more image files (including multipage TIFFs and PDF documents) from a directory, which are displayed successively, the sequence is controlled by the cursor keys:
  + left   : previous image
  + right  : next image
  + up     : previous page of document
