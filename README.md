@@ -9,17 +9,13 @@ The program was written in Swift for Mac OS X.
 The development environment in the moment is Xcode 7.3.1 under OS El Capitan.
 
 You can choose one or more image files (including multipage TIFFs and PDF documents) from a directory, which are displayed succesvely, the sequence is controlled by the cursor keys:
-
- left   : previous image
- 
- right  : next image
- 
- up     : previous page of document
- 
- down   : next page of document
+ + left   : previous image
+ + right  : next image
+ + up     : previous page of document
+ + down   : next page of document
 
 There is a link in the source code to the ZipZap framework
-   see <https://github.com/pixelglow/zipzap>
+ +   see <https://github.com/pixelglow/zipzap>
 
 Thanks to this framework also images from a zipped archive can be shown, when you choose one. Cursor key control is in the manner as mentioned. The backspace key control gives you the possibility to return from displaying the zipped images and choose another sequence.
 
