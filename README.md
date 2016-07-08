@@ -4,9 +4,9 @@ Show Images of different kind under OSX
 Show the images in a scroll view optionally on full screen
 ( relatively spartan but working )
 
-The program was written in Swift for Mac OS X.
+The program was written in Swift version 2.2 for Mac OS X.
 
-The development environment in the moment is Xcode 7.3.1 under OS El Capitan.
+The development environment in the moment is Xcode 7.3.1 under OS X 10.11 El Capitan.
 
 You can choose one or more image files (including multipage TIFFs and PDF documents) from a directory, which are displayed successively, the sequence is controlled by the cursor keys:
  + left   : previous image
